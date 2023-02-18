@@ -1,15 +1,15 @@
 public class Animal {
-    private String type;
+    protected String type;
     private String size;
-    private double wight;
+    private double weight;
 
     public Animal(){
 
     }
-    public Animal(String type, String size, double wight) {
+    public Animal(String type, String size, double weight) {
         this.type = type;
         this.size = size;
-        this.wight = wight;
+        this.weight = weight;
     }
 
     public String getType() {
@@ -29,11 +29,11 @@ public class Animal {
     }
 
     public double getWight() {
-        return this.wight;
+        return this.weight;
     }
 
     public void setWight(double wight) {
-        this.wight = wight;
+        this.weight = wight;
     }
 
     @Override
